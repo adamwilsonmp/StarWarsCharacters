@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsCharacters.Server", "StarWarsCharacters.Server\StarWarsCharacters.Server.csproj", "{A00A5ED3-E5F3-44EE-9AAF-5BF6F913D951}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "starwarscharacters.client", "starwarscharacters.client\starwarscharacters.client.esproj", "{B746BFA5-D2B1-4DD2-9A71-6976362B4764}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A00A5ED3-E5F3-44EE-9AAF-5BF6F913D951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00A5ED3-E5F3-44EE-9AAF-5BF6F913D951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00A5ED3-E5F3-44EE-9AAF-5BF6F913D951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00A5ED3-E5F3-44EE-9AAF-5BF6F913D951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B746BFA5-D2B1-4DD2-9A71-6976362B4764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B746BFA5-D2B1-4DD2-9A71-6976362B4764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B746BFA5-D2B1-4DD2-9A71-6976362B4764}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B746BFA5-D2B1-4DD2-9A71-6976362B4764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B746BFA5-D2B1-4DD2-9A71-6976362B4764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B746BFA5-D2B1-4DD2-9A71-6976362B4764}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {371C1526-8A34-456A-BE0C-6D3930AECD3F}
+	EndGlobalSection
+EndGlobal

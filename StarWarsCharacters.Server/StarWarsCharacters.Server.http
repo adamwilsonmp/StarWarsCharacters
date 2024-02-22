@@ -1,0 +1,6 @@
+@StarWarsCharacters.Server_HostAddress = http://localhost:7179
+
+GET {{StarWarsCharacters.Server_HostAddress}}/StarWars/GetCharacters
+Accept: application/json
+
+###
