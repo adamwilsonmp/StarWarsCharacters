@@ -62,7 +62,7 @@ namespace StarWarsProject.Server.Controllers
                 {
                     var content = await response.Content.ReadAsStringAsync();
                     var planet = JsonConvert.DeserializeObject<Planet>(content);
-                    _logger.LogInformation("Successfully received planety info", planet);
+                    _logger.LogInformation("Successfully received planet info", planet);
                     return planet;
                 }
                 else
